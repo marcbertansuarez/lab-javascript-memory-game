@@ -21,6 +21,7 @@ class MemoryGame {
 }
 
   checkIfPair(card1, card2) {
+    console.log(`checking if pair ${card1} ${card2}`)
     this.pairsClicked++
     if (card1 === card2) {
       this.pairsGuessed++
